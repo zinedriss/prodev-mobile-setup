@@ -87,4 +87,24 @@ const styles = StyleSheet.create({
     borderRadius: 40,
     paddingVertical: 15,
     paddingHorizontal: 5,
-    alignItems:
+    alignItems: "center",
+    fontSize: 20,
+    flex: 1,
+  },
+  button: {
+    borderColor: "white",
+    borderWidth: 2,
+    borderRadius: 40,
+    paddingVertical: 15,
+    paddingHorizontal: 5,
+    alignItems: "center",
+    fontSize: 20,
+    backgroundColor: "white",
+    flex: 1,
+  },
+  buttonGroup: {
+    flexDirection: "row",
+    gap: 20,
+    paddingHorizontal: 20,
+  },
+});
